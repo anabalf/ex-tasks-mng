@@ -1,17 +1,21 @@
 {
   "name": "ex-task-manager",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "",
+  "main": "app.js",
   "scripts": {
     "start": "node app.js",
-    "dev": "node --watch app.js"
+    "dev": "nodemon -e js,css,hbs app.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "hbs": "^4.2.0",
+    "http-errors": "^2.0.0"
   },
-  "devDependencies": {},
-  "description": ""
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
 }
